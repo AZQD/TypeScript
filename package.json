@@ -10,5 +10,8 @@
     "TypeScript"
   ],
   "author": "liuchaojie",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
 }
