@@ -1,9 +1,9 @@
-const num:number = 1;
+const num: number = 1;
 console.log(num);
 
-let arr:string[] = ['dog', 'cat'];
+let arr: string[] = ['dog', 'cat'];
 console.log(arr);
-var fist:string = arr[0];
+var fist: string = arr[0];
 console.log(arr, fist);
 
 interface Student {
@@ -11,7 +11,7 @@ interface Student {
   age: number
 };
 
-let student1:Student = {
+let student1: Student = {
   name: 'liming',
   age: 12
 };
