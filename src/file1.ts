@@ -3,15 +3,15 @@ console.log(num);
 
 let arr: string[] = ['dog', 'cat'];
 console.log(arr);
-var fist: string = arr[0];
+let fist: string = arr[0];
 console.log(arr, fist);
 
-interface Student {
+interface IStudent {
     name: string;
     age: number;
 }
 
-let student1: Student = {
+let student1: IStudent = {
     name: 'liming',
     age: 12
 };
