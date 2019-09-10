@@ -5,3 +5,4 @@ This is my TypeScript project .
 
 https://www.jianshu.com/p/df14afcfdb03
 https://www.jianshu.com/p/9e61598f024c
+https://www.jianshu.com/p/abcd1c350b88

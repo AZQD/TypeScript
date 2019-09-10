@@ -7,7 +7,9 @@
     "start": "ts-node-dev --respawn --transpileOnly src/index.ts",
     "style": "run-s style:**",
     "style:prettier": "prettier --write \"src/**/*.ts\"",
-    "style:lint": "tslint -p tsconfig.json -c tslint.json"
+    "style:lint": "tslint -p tsconfig.json -c tslint.json",
+    "start1": "webpack",
+    "server": "webpack-dev-server --open"
   },
   "keywords": [
     "TypeScript"
@@ -17,11 +19,17 @@
   "devDependencies": {
     "@types/node": "^12.7.4",
     "commitizen": "^4.0.3",
+    "html-webpack-plugin": "^3.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.18.2",
+    "ts-loader": "^6.0.4",
     "ts-node-dev": "^1.0.0-pre.42",
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-init": "^0.1.2"
   }
 }
