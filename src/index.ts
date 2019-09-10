@@ -1,5 +1,6 @@
 console.log('Hello TypeScript!');
 
+// -------------------华丽的分割线-----------------------
 // TypeScript 基础类型
 // //数字类型
 // let bin:number = 1;
@@ -60,10 +61,16 @@ console.log('Hello TypeScript!');
 // let arr4:any[] = ['1', 2, false];
 // console.log(arr4);
 
-var str = '1';
-var str2:number = <number> <any> str;
-console.log(str2);
+// -------------------华丽的分割线-----------------------
+// TypeScript 变量声明
+// var str = '1';
+// var str2:number = <number> <any> str;
+// console.log(str2);
+//
+// var num = 2;
+// num = '12';
+// console.log(num);
+// console.log(~5);
 
-var num = 2;
-num = '12';
-console.log(num);
+// -------------------华丽的分割线-----------------------
+//TypeScript 函数
