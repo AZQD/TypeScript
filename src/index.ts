@@ -74,3 +74,22 @@ console.log('Hello TypeScript!');
 
 // -------------------华丽的分割线-----------------------
 //TypeScript 函数
+// 可选参数必须跟在必需参数后面
+function add(x: number, y: number, z?:number):number {
+  return x+y+z;
+}
+console.log(add(1, 2));
+console.log(add(1, 2, 3));
+
+// 不知道要向函数传入多少个参数
+
+function add2(...nums:number[]) {
+  console.log(nums);
+}
+add2(1, 2);
+
+// 如果参数类型不同，则参数类型应设置为 any。
+//
+// 参数数量不同你可以将不同的参数设置为可选。
+
+// -------------------华丽的分割线-----------------------
