@@ -93,3 +93,21 @@ console.log('Hello TypeScript!');
 // 参数数量不同你可以将不同的参数设置为可选。
 
 // -------------------华丽的分割线-----------------------
+// TypeScript 接口
+
+interface IPerson {
+  firstName: string,
+  lastName: string,
+  sayHi: () => string
+}
+
+var customer:IPerson = {
+  firstName: 'jack',
+  lastName: 'rose',
+  sayHi: ():string=>'hello'
+};
+
+console.log(customer);
+console.log(customer.sayHi());
+
+// -------------------华丽的分割线-----------------------
