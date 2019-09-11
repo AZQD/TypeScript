@@ -95,19 +95,56 @@ console.log('Hello TypeScript!');
 // -------------------华丽的分割线-----------------------
 // TypeScript 接口
 
-interface IPerson {
-  firstName: string,
-  lastName: string,
-  sayHi: () => string
+// interface IPerson {
+//   firstName: string,
+//   lastName: string,
+//   sayHi: () => string
+// }
+//
+// var customer:IPerson = {
+//   firstName: 'jack',
+//   lastName: 'rose',
+//   sayHi: ():string=>'hello'
+// };
+//
+// console.log(customer);
+// console.log(customer.sayHi());
+
+// 联合类型和接口
+
+interface RunOptions{
+  program: string,
+  commandline: string[]|string|(()=>string)
 }
 
-var customer:IPerson = {
-  firstName: 'jack',
-  lastName: 'rose',
-  sayHi: ():string=>'hello'
+// commandline是字符串
+var option:RunOptions = {
+  program: 'test1',
+  commandline: 'hello'
 };
 
-console.log(customer);
-console.log(customer.sayHi());
+// commandline是字符串数据
+option = {
+  program: 'test2',
+  commandline: ['hello', 'world']
+};
+
+// commandline是函数表达式
+option = {
+  program: 'test3',
+  commandline: ():string => {
+    return 'hello world'
+  }
+};
+console.log(option);
+
+// -------------------华丽的分割线-----------------------
+
+// //普通函数返回值定义
+// let fun1: Function = function(a: number):number{
+//   return a;
+// };
+// //箭头函数返回值定义
+// let fun2: Function = (a: number):string =>'str';
 
 // -------------------华丽的分割线-----------------------
