@@ -14,3 +14,6 @@ https://www.jianshu.com/p/abcd1c350b88
 
 ts定义返回函数类型：
 https://blog.csdn.net/youngsailor/article/details/94284412
+
+正则表达式 - 语法：
+https://www.runoob.com/regexp/regexp-syntax.html

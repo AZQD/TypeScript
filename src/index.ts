@@ -112,8 +112,8 @@ console.log('Hello TypeScript!');
 
 // 联合类型和接口
 
-interface RunOptions{
-  program: string,
+/*interface RunOptions{
+  program: string;
   commandline: string[]|string|(()=>string)
 }
 
@@ -131,12 +131,18 @@ option = {
 
 // commandline是函数表达式
 option = {
-  program: 'test3',
+  program: 'test4',
   commandline: ():string => {
     return 'hello world'
   }
 };
-console.log(option);
+console.log(option);*/
+
+// 接口和数组
+interface Namelist {
+  [index: number]:string
+}
+var list2:Namelist = ['jack', 'rose'];
 
 // -------------------华丽的分割线-----------------------
 
