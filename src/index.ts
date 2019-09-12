@@ -322,3 +322,5 @@ function addPoints(p1: IPoint, p2: IPoint):IPoint {
 
 var newPoint = addPoints({x: 1, y: 1}, {x: 2, y: 2});
 console.log(newPoint);*/
+
+// -------------------华丽的分割线-----------------------
