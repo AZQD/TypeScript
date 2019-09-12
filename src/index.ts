@@ -231,4 +231,18 @@ console.log(obj);
 console.log(obj.str);*/
 
 // -------------------华丽的分割线-----------------------
-
+// 继承类的方法重写
+/*
+class Parent {
+  doPrint():void{
+    console.log('调用父组件doPrint');
+  }
+}
+class Child extends Parent{
+  doPrint():void{
+    super.doPrint(); // super 关键字是对父类的直接引用，该关键字可以引用父类的属性和方法
+    console.log('调用子组件doPrint');
+  }
+}
+let obj = new Child();
+obj.doPrint();*/
