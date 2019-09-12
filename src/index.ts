@@ -197,3 +197,38 @@ var obj = new Car('Enginer1');
 obj.disp();*/
 
 // -------------------华丽的分割线-----------------------
+// 类的继承
+// class Shape {
+//   Area: number;
+//   constructor(num: number){
+//     this.Area = num;
+//   }
+// }
+//
+// class Circle extends Shape{
+//   disp():void{
+//     console.log('圆的面积为：' + this.Area);
+//   }
+// }
+//
+// var obj = new Circle(12);
+// obj.disp();
+
+// 需要注意的是子类只能继承一个父类，TypeScript 不支持继承多个类，但支持多重继承，如下实例：
+/*
+class Root {
+  str: string
+}
+class Child extends Root{
+  
+}
+class Leaf extends Child{
+  
+}
+var obj = new Leaf();
+obj.str = 'str';
+console.log(obj);
+console.log(obj.str);*/
+
+// -------------------华丽的分割线-----------------------
+
