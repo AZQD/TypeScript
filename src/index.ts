@@ -259,4 +259,10 @@ class StaticPerson {
 StaticPerson.num = 12; // 初始化静态变量
 StaticPerson.disp(); // 调用静态方法*/
 // -------------------华丽的分割线-----------------------
+// instanceof 运算符
+// instanceof 运算符用于判断对象是否是指定的类型，如果是返回 true，否则返回 false。
+/*class Parent {
 
+}
+let obj = new Parent();
+console.log(obj instanceof Parent);*/
