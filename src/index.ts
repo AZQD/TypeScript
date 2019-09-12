@@ -139,10 +139,32 @@ option = {
 console.log(option);*/
 
 // 接口和数组
-interface Namelist {
-  [index: number]:string
+// interface Namelist {
+//   [index: number]:string
+// }
+// var list2:Namelist = ['jack', 'rose'];
+
+// 接口继承
+// Typescript 允许接口继承多个接口
+interface IParent1 {
+  name: string
 }
-var list2:Namelist = ['jack', 'rose'];
+
+interface IParent2 {
+  age: number
+}
+
+interface IChild extends IParent1, IParent2 {
+  height: number
+}
+
+var userInfo: IChild = {
+  name: '杨幂',
+  age: 18,
+  height: 180
+};
+console.log(userInfo);
+
 
 // -------------------华丽的分割线-----------------------
 
