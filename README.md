@@ -17,3 +17,6 @@ https://blog.csdn.net/youngsailor/article/details/94284412
 
 正则表达式 - 语法：
 https://www.runoob.com/regexp/regexp-syntax.html
+
+如何在typescript中解决 error TS2451: Cannot redeclare block-scoped variable 'name'
+https://www.jianshu.com/p/78268bd9af0a
