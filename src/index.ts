@@ -146,7 +146,7 @@ console.log(option);*/
 
 // 接口继承
 // Typescript 允许接口继承多个接口
-interface IParent1 {
+/*interface IParent1 {
   name: string
 }
 
@@ -163,7 +163,7 @@ var userInfo: IChild = {
   age: 18,
   height: 180
 };
-console.log(userInfo);
+console.log(userInfo);*/
 
 
 // -------------------华丽的分割线-----------------------
@@ -174,5 +174,26 @@ console.log(userInfo);
 // };
 // //箭头函数返回值定义
 // let fun2: Function = (a: number):string =>'str';
+
+// -------------------华丽的分割线-----------------------
+
+// TypeScript 类
+// 类可以包含以下几个模块
+/*
+class Car {
+  // 字段
+  engine: string;
+  // 构造方法
+  constructor(engine: string){
+    this.engine = engine;
+  }
+  // 方法
+  disp():void{
+    console.log('发动机为：' + this.engine);
+  }
+}
+
+var obj = new Car('Enginer1');
+obj.disp();*/
 
 // -------------------华丽的分割线-----------------------
