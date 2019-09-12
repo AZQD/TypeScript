@@ -266,3 +266,27 @@ StaticPerson.disp(); // 调用静态方法*/
 }
 let obj = new Parent();
 console.log(obj instanceof Parent);*/
+
+// -------------------华丽的分割线-----------------------
+// 访问控制修饰符
+// public（默认） : 公有，可以在任何地方被访问。
+// protected : 受保护，可以被其自身以及其子类和父类访问。(不能被实例使用)
+// private : 私有，只能被其定义所在的类访问。
+/*class Parent {
+  public str1: string = 'hello';
+  protected str2: string = 'world';
+  private str3: string = '~~~';
+}
+class Child extends Parent{
+  disp():void{
+    console.log(this.str2);
+  }
+}
+let obj = new Child();
+obj.disp();
+console.log(obj.str1);
+// console.log(obj.str2); // 编译错误
+// console.log(obj.str3); // 编译错误*/
+
+// -------------------华丽的分割线-----------------------
+
