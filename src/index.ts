@@ -246,3 +246,17 @@ class Child extends Parent{
 }
 let obj = new Child();
 obj.doPrint();*/
+
+// -------------------华丽的分割线-----------------------
+/*// static 关键字
+// static 关键字用于定义类的数据成员（属性和方法）为静态的，静态成员可以直接通过类名调用。
+class StaticPerson {
+  static num: number;
+  static disp():void{
+    console.log('num的值为：'+StaticPerson.num);
+  }
+}
+StaticPerson.num = 12; // 初始化静态变量
+StaticPerson.disp(); // 调用静态方法*/
+// -------------------华丽的分割线-----------------------
+
