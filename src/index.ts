@@ -307,7 +307,9 @@ class AgriLoan implements ILoan {
 
 var obj = new AgriLoan(10,1)
 console.log("利润为 : "+obj.interest+"，抽成为 : "+obj.rebate )*/
+
 // -------------------华丽的分割线-----------------------
+
 // 鸭子类型(Duck Typing)
 /*
 interface IPoint {
