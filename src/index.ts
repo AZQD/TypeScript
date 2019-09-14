@@ -62,6 +62,7 @@ console.log('Hello TypeScript!');
 // console.log(arr4);
 
 // -------------------华丽的分割线-----------------------
+
 // TypeScript 变量声明
 // var str = '1';
 // var str2:number = <number> <any> str;
@@ -73,6 +74,7 @@ console.log('Hello TypeScript!');
 // console.log(~5);
 
 // -------------------华丽的分割线-----------------------
+
 //TypeScript 函数
 // 可选参数必须跟在必需参数后面
 // function add(x: number, y: number, z?:number):number {
@@ -93,6 +95,7 @@ console.log('Hello TypeScript!');
 // 参数数量不同你可以将不同的参数设置为可选。
 
 // -------------------华丽的分割线-----------------------
+
 // TypeScript 接口
 
 // interface IPerson {
@@ -197,6 +200,7 @@ var obj = new Car('Enginer1');
 obj.disp();*/
 
 // -------------------华丽的分割线-----------------------
+
 // 类的继承
 // class Shape {
 //   Area: number;
@@ -231,6 +235,7 @@ console.log(obj);
 console.log(obj.str);*/
 
 // -------------------华丽的分割线-----------------------
+
 // 继承类的方法重写
 /*
 class Parent {
@@ -248,6 +253,7 @@ let obj = new Child();
 obj.doPrint();*/
 
 // -------------------华丽的分割线-----------------------
+
 /*// static 关键字
 // static 关键字用于定义类的数据成员（属性和方法）为静态的，静态成员可以直接通过类名调用。
 class StaticPerson {
@@ -258,7 +264,9 @@ class StaticPerson {
 }
 StaticPerson.num = 12; // 初始化静态变量
 StaticPerson.disp(); // 调用静态方法*/
+
 // -------------------华丽的分割线-----------------------
+
 // instanceof 运算符
 // instanceof 运算符用于判断对象是否是指定的类型，如果是返回 true，否则返回 false。
 /*class Parent {
@@ -268,6 +276,7 @@ let obj = new Parent();
 console.log(obj instanceof Parent);*/
 
 // -------------------华丽的分割线-----------------------
+
 // 访问控制修饰符
 // public（默认） : 公有，可以在任何地方被访问。
 // protected : 受保护，可以被其自身以及其子类和父类访问。(不能被实例使用)
@@ -289,6 +298,7 @@ console.log(obj.str1);
 // console.log(obj.str3); // 编译错误*/
 
 // -------------------华丽的分割线-----------------------
+
 // 类和接口
 /*
 interface ILoan {
